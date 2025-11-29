@@ -49,6 +49,13 @@ const main = async () => {
     prefix: versioningPrefix,
   });
 
+  // Enable CORS for both HTTP and WebSocket connections
+  app.enableCors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    credentials: true,
+  });
+
   // Set global API prefix for all routes
   // app.setGlobalPrefix(globalPrefix);
 
@@ -91,6 +98,6 @@ const main = async () => {
   logger.log(`Main app will serve on PORT ${port}`, 'MainApplication');
   logger.log(`==========================================================`);
   await app.listen(port);
-};
+};;
 
 main();
