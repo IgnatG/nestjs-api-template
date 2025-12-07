@@ -15,7 +15,7 @@ export const SwaggerDocs = (app: NestApplication) => {
   const docVersion: string = configService.get<string>('doc.version');
   const docPrefix: string = configService.get<string>('doc.prefix');
 
-  const documentBuild = new DocumentBuilder().setTitle(docName).setDescription(docDesc).setVersion(docVersion).build();
+  const documentBuild = new DocumentBuilder().setTitle(docName).setDescription(docDesc).setVersion(docVersion).addBearerAuth().build();
 
   app.use(
     ['/docs', '/docs-json', '/docs-yaml'],

@@ -53,7 +53,6 @@ LICENSE
 .cspell.json
 
 # Git hooks
-.husky
 .commitlintrc.json
 commitlint.config.js
 

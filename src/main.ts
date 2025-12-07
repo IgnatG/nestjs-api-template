@@ -57,7 +57,7 @@ const main = async () => {
   });
 
   // Set global API prefix for all routes
-  // app.setGlobalPrefix(globalPrefix);
+  app.setGlobalPrefix(globalPrefix);
 
   app.useGlobalPipes(
     new ValidationPipe({
@@ -98,6 +98,6 @@ const main = async () => {
   logger.log(`Main app will serve on PORT ${port}`, 'MainApplication');
   logger.log(`==========================================================`);
   await app.listen(port);
-};;
+};
 
 main();

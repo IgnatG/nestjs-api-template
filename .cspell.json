@@ -13,7 +13,7 @@
   "language": "en",
   "noConfigSearch": true,
   "allowCompoundWords": true,
-  "words": ["Typeorm", "codeql", "huskyrc", "isready", "nestjs", "typeorm", "venv", "typescript", "Dockerised", "Gabriel", "Ignat"],
+  "words": ["Typeorm", "codeql", "isready", "nestjs", "typeorm", "venv", "typescript", "Dockerised", "Gabriel", "Ignat"],
   "dictionaries": ["en-gb", "companies", "softwareTerms", "misc", "lorem-ipsum", "typescript", "node", "bash", "npm"],
   "languageSettings": [
     {

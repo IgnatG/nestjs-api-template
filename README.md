@@ -18,7 +18,7 @@ A high-performance, production-ready REST API built with [NestJS](https://nestjs
 
 - 🐳 **Docker Ready** - Containerized with optimized multi-stage builds
 - 🔄 **Hot Reload** - Fast development iteration with watch mode
-- 📝 **Conventional Commits** - Enforced via Husky + Commitlint
+- 📝 **Conventional Commits** - Enforced via Commitlint
 - 🎨 **Code Quality** - ESLint, Prettier, and CSpell integration
 - 🧪 **Testing Ready** - Jest configuration for unit and e2e tests
 - 📦 **Path Aliases** - Clean imports with `@app/*` aliases
